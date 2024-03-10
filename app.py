@@ -73,7 +73,6 @@ resolution_dropdown.set('1080p')
 
 
 progress_label = CTkLabel(frame, text='0%', font=('Arial', 16))
-progress_label.pack(pady=('10p', '5p'))
 
 progress_bar = CTkProgressBar(frame, width=400)
 progress_bar.set(0)
